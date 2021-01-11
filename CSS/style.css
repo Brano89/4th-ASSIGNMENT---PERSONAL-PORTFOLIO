@@ -1,12 +1,12 @@
-.section1 {
+.section {
   background-size: cover;
-  background-image: url(/PCS/137231387_147159857047550_5556909252536539973_n.jpg) no-repeat;
-  min-width: 500px;
+  background-image: url("/PCS/137231387_147159857047550_5556909252536539973_n.jpg");
+  min-height: 800px;
   width: 100%;
 }
 
-h1 {
-  font-size: 25px;
-  color: orange;
+.section h1 {
+  color: red;
+  font-size: 35px;
 }
 /*# sourceMappingURL=style.css.map */
