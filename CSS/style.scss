@@ -1,3 +1,11 @@
 .section1 {
-    background-image: url("../../PCS/137231387_147159857047550_5556909252536539973_n.jpg") no-repeat;
+    background-size: cover;
+    background-image: url(/PCS/137231387_147159857047550_5556909252536539973_n.jpg) no-repeat;
+    min-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    color: orange;
 }
