@@ -63,10 +63,7 @@ body {
 
 .btn {
   border: 2px solid white;
-  color: white;
-}
-
-.links a {
   cursor: pointer;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
