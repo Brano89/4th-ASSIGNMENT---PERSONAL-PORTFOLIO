@@ -1,13 +1,23 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  font-weight: 500;
+}
+
+#navbar {
+  z-index: 1;
+}
+
 #background {
   background-size: cover;
   background-image: url(/PCS/137341720_703724403679244_6632590992934753332_n.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 600px;
-}
-
-#background h1 {
-  padding: 200px 0;
+  z-index: -1;
+  text-align: center;
 }
 
 .navbar-toggler-icon {
@@ -32,10 +42,31 @@
   text-decoration: underline;
 }
 
-.intro {
+.aboutme {
   color: white;
   font-size: 1.5em;
   font-weight: bold;
   line-height: 2;
+  position: relative;
+  text-align: center;
+  padding-top: 400px;
+}
+
+.buttons {
+  text-decoration: none;
+  list-style: none;
+}
+
+.buttons li {
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+}
+
+.links a {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
