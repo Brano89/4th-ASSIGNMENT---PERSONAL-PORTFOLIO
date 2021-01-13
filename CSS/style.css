@@ -6,7 +6,12 @@ body {
   font-weight: 500;
 }
 
+.navbar:hover {
+  font-weight: 500;
+}
+
 #navbar {
+  background-color: orange;
   z-index: 1;
 }
 
@@ -20,7 +25,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 600px;
-  z-index: -1;
   text-align: center;
 }
 
