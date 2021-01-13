@@ -22,13 +22,13 @@ body {
 
 .navbar-toggler-icon {
   border-radius: 25%;
-  padding: 20px;
-  margin: 20px;
+  padding: 25px;
   color: white;
+  background-color: white;
 }
 
 .navbar-toggler-icon:hover {
-  background-color: #f3f3f3;
+  background-color: #e9e1e1;
 }
 
 .text-white {
@@ -39,7 +39,9 @@ body {
 }
 
 .text-white:hover {
-  text-decoration: underline;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  background-color: #e7e1e1;
 }
 
 .aboutme {
@@ -65,5 +67,25 @@ body {
   border: 2px solid white;
   cursor: pointer;
   color: white;
+}
+
+.line1 {
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.cover {
+  background-color: #d3e4d3;
+}
+
+.footerlist li {
+  display: inline-block;
+  text-decoration: none;
+  font-style: none;
+}
+
+.footerlist a {
+  color: black;
+  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
