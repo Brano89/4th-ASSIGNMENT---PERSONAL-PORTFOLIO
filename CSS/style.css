@@ -10,6 +10,10 @@ body {
   z-index: 1;
 }
 
+.nav-link {
+  background-color: orange;
+}
+
 #background {
   background-size: cover;
   background-image: url(/PCS/137341720_703724403679244_6632590992934753332_n.jpg);
@@ -24,11 +28,11 @@ body {
   border-radius: 25%;
   padding: 25px;
   color: white;
-  background-color: white;
+  background-color: orange;
 }
 
 .navbar-toggler-icon:hover {
-  background-color: #e9e1e1;
+  background-color: orange;
 }
 
 .text-white {
